@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SparshbotComponent } from '../app/sparshbot/sparshbot.component'; // Import Chatbot Component
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SparshbotComponent // Declare Chatbot Component
   ],
   imports: [
     BrowserModule,
